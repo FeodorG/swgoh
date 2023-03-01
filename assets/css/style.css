@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(15, 15, 15);
+}
+h1 {
+    font-family: 'Gloock', serif;
+    font-size: 210%;
+    font-weight: 700;
+    text-align: center;
+    color: #EC0033;
+}
+
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.nav{
+    font-family: 'Gloock', serif;
+    font-size: 210%;
+    font-weight: 700;
+    text-align: left;
+    top: 0;
+    color: #EC0033;
+}
+
+.nav_link{
+    color: #fff;
+    text-decoration: none;
+}
