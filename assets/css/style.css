@@ -1,7 +1,8 @@
 body {
     background-color: rgb(15, 15, 15);
 }
-h1 {
+
+.ALMAZ {
     text-align: center;
     font-family: 'Gloock', serif;
     font-size: 180%;
@@ -9,12 +10,16 @@ h1 {
     color: #EC0033;
 }
 
-.header{
-    position: absolute;
+.ALMAZ_link{
+    color: #EC0033;
     top: auto;
-    left: 2%;
-    right: 0;
-    z-index: 1000;
+    margin: 0.2%;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.ALMAZ_link:hover {
+    color: #ec003388;
 }
 
 .nav{
@@ -37,83 +42,27 @@ h1 {
     color: #ec003388;
 }
 
-.login{
-    font-family: 'Gloock', serif;
-    font-size: 180%;
-    width: 50%;
-    height: 50%;
-    position: absolute;
-    border: 1px solid white;
-    color: #EC0033;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
-}
-
-label{
-    margin: 1%;
-    font-weight: bold;
-}
-
-.login input{
-    position: relative;
-    width: 95%;
-    left: 2%;
-    margin-bottom: 20px;
-}
-
-.login input[type="text"],
-input[type="password"]{
-    position: relative;
-    font-size: 180%;
-    left: 2%;
-    width: 95%; 
-    border: none;
-    outline: none;
-    background: transparent;
-    border-bottom: 1px solid white;
-    color: white;
-}
-
-.login input[type="submit"]{
-    outline: none;
-    background-color: transparent;
-    border-radius: 25px;
-    border: 2px solid;
-    color: white;
+.head{
     font-family: 'Gloock', serif;   
-    font-size: 180%;
+    font-size: 130%;
+    font-weight: 700;
+    text-align: left;
+    display: felx;
+    position: absolute;
+    left: 2%;
+    right: 0;
+    z-index: 1000;
+    text-align: center;
 }
 
-.login input[type="submit"]:hover{
-    cursor: pointer;
-    background-color: rgb(53, 51, 51);
-    color: rgb(15, 15, 15);
+.head_link{
+    color: #EC0033;
+    top: auto;
+    margin: 0.2%;
+    text-decoration: none;
+    transition: color .2s linear;
 }
 
-@media (max-width:1400px){
-    h1 {
-        font-size: 120%;
-    }
-
-    .nav{
-        font-size: 120%;
-    }
-    
-    .login{
-        width: 95%;
-        height: auto;
-        font-size: 120%;
-    }
-    .login input[type="text"],
-    input[type="password"]{
-        width: 95%;
-        font-size: 180%;
-    }
-
-    .login input[type="submit"]{
-        width: 95%;
-        font-size: 180%;
-    }
+.head_link:hover {
+    color: #ec003388;
 }
