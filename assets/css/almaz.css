@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(15, 15, 15);
+}
+
+.ALMAZ {
+    text-align: center;
+    font-family: 'Gloock', serif;
+    font-size: 180%;
+    font-weight: 700;
+    color: #EC0033;
+}
+
+.ALMAZ_link{
+    color: #EC0033;
+    top: auto;
+    margin: 0.2%;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.ALMAZ_link:hover {
+    color: #ec003388;
+}
+
+.GM {
+    text-align: center;
+    font-family: 'Gloock', serif;
+    font-size: 120%;
+    font-weight: 700;
+    color: #EC0033;
+}
+
+.Players {
+    text-align: center;
+    font-family: 'Gloock', serif;
+    color: #EC0033;
+    display: grid;
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.players_link{
+    color: #EC0033;
+    top: auto;
+    margin: 0.2%;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+
+.players_link:hover {
+    color: #ec003388;
+}
